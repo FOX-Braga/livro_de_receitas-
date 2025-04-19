@@ -1,0 +1,32 @@
+.menu-bar {
+    background-color: #ff9800;
+    padding: 10px 0;
+}
+
+.menu-bar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.menu-bar ul li {
+    margin: 0 15px;
+}
+
+.menu-bar ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+.menu-bar ul li a:hover {
+    color: #333;
+}
+body{font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:#7cd7cf ;
+    background-color: #e1ecd6;
+}
